@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A112FC05255DBDE600123A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112FC04255DBDE600123A7C /* AppDelegate.swift */; };
+		A112FC07255DBDE600123A7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112FC06255DBDE600123A7C /* SceneDelegate.swift */; };
+		A112FC09255DBDE600123A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112FC08255DBDE600123A7C /* ViewController.swift */; };
+		A112FC0C255DBDE600123A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A112FC0A255DBDE600123A7C /* Main.storyboard */; };
+		A112FC0E255DBDE800123A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A112FC0D255DBDE800123A7C /* Assets.xcassets */; };
+		A112FC11255DBDE800123A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A112FC0F255DBDE800123A7C /* LaunchScreen.storyboard */; };
+		A112FC1C255DBDE800123A7C /* VoiceNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112FC1B255DBDE800123A7C /* VoiceNoteTests.swift */; };
+		A112FC27255DBDE800123A7C /* VoiceNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A112FC26255DBDE800123A7C /* VoiceNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A112FC18255DBDE800123A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A112FBF9255DBDE600123A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A112FC00255DBDE600123A7C;
+			remoteInfo = VoiceNote;
+		};
+		A112FC23255DBDE800123A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A112FBF9255DBDE600123A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A112FC00255DBDE600123A7C;
+			remoteInfo = VoiceNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A112FC01255DBDE600123A7C /* VoiceNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A112FC04255DBDE600123A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A112FC06255DBDE600123A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A112FC08255DBDE600123A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A112FC0B255DBDE600123A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A112FC0D255DBDE800123A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A112FC10255DBDE800123A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A112FC12255DBDE800123A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A112FC17255DBDE800123A7C /* VoiceNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A112FC1B255DBDE800123A7C /* VoiceNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceNoteTests.swift; sourceTree = "<group>"; };
+		A112FC1D255DBDE800123A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A112FC22255DBDE800123A7C /* VoiceNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A112FC26255DBDE800123A7C /* VoiceNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceNoteUITests.swift; sourceTree = "<group>"; };
+		A112FC28255DBDE800123A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A112FBFE255DBDE600123A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112FC14255DBDE800123A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112FC1F255DBDE800123A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A112FBF8255DBDE600123A7C = {
+			isa = PBXGroup;
+			children = (
+				A112FC03255DBDE600123A7C /* VoiceNote */,
+				A112FC1A255DBDE800123A7C /* VoiceNoteTests */,
+				A112FC25255DBDE800123A7C /* VoiceNoteUITests */,
+				A112FC02255DBDE600123A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A112FC02255DBDE600123A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A112FC01255DBDE600123A7C /* VoiceNote.app */,
+				A112FC17255DBDE800123A7C /* VoiceNoteTests.xctest */,
+				A112FC22255DBDE800123A7C /* VoiceNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A112FC03255DBDE600123A7C /* VoiceNote */ = {
+			isa = PBXGroup;
+			children = (
+				A112FC04255DBDE600123A7C /* AppDelegate.swift */,
+				A112FC06255DBDE600123A7C /* SceneDelegate.swift */,
+				A112FC08255DBDE600123A7C /* ViewController.swift */,
+				A112FC0A255DBDE600123A7C /* Main.storyboard */,
+				A112FC0D255DBDE800123A7C /* Assets.xcassets */,
+				A112FC0F255DBDE800123A7C /* LaunchScreen.storyboard */,
+				A112FC12255DBDE800123A7C /* Info.plist */,
+			);
+			path = VoiceNote;
+			sourceTree = "<group>";
+		};
+		A112FC1A255DBDE800123A7C /* VoiceNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A112FC1B255DBDE800123A7C /* VoiceNoteTests.swift */,
+				A112FC1D255DBDE800123A7C /* Info.plist */,
+			);
+			path = VoiceNoteTests;
+			sourceTree = "<group>";
+		};
+		A112FC25255DBDE800123A7C /* VoiceNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A112FC26255DBDE800123A7C /* VoiceNoteUITests.swift */,
+				A112FC28255DBDE800123A7C /* Info.plist */,
+			);
+			path = VoiceNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A112FC00255DBDE600123A7C /* VoiceNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A112FC2B255DBDE800123A7C /* Build configuration list for PBXNativeTarget "VoiceNote" */;
+			buildPhases = (
+				A112FBFD255DBDE600123A7C /* Sources */,
+				A112FBFE255DBDE600123A7C /* Frameworks */,
+				A112FBFF255DBDE600123A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceNote;
+			productName = VoiceNote;
+			productReference = A112FC01255DBDE600123A7C /* VoiceNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A112FC16255DBDE800123A7C /* VoiceNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A112FC2E255DBDE800123A7C /* Build configuration list for PBXNativeTarget "VoiceNoteTests" */;
+			buildPhases = (
+				A112FC13255DBDE800123A7C /* Sources */,
+				A112FC14255DBDE800123A7C /* Frameworks */,
+				A112FC15255DBDE800123A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A112FC19255DBDE800123A7C /* PBXTargetDependency */,
+			);
+			name = VoiceNoteTests;
+			productName = VoiceNoteTests;
+			productReference = A112FC17255DBDE800123A7C /* VoiceNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A112FC21255DBDE800123A7C /* VoiceNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A112FC31255DBDE800123A7C /* Build configuration list for PBXNativeTarget "VoiceNoteUITests" */;
+			buildPhases = (
+				A112FC1E255DBDE800123A7C /* Sources */,
+				A112FC1F255DBDE800123A7C /* Frameworks */,
+				A112FC20255DBDE800123A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A112FC24255DBDE800123A7C /* PBXTargetDependency */,
+			);
+			name = VoiceNoteUITests;
+			productName = VoiceNoteUITests;
+			productReference = A112FC22255DBDE800123A7C /* VoiceNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A112FBF9255DBDE600123A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A112FC00255DBDE600123A7C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A112FC16255DBDE800123A7C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A112FC00255DBDE600123A7C;
+					};
+					A112FC21255DBDE800123A7C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A112FC00255DBDE600123A7C;
+					};
+				};
+			};
+			buildConfigurationList = A112FBFC255DBDE600123A7C /* Build configuration list for PBXProject "VoiceNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A112FBF8255DBDE600123A7C;
+			productRefGroup = A112FC02255DBDE600123A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A112FC00255DBDE600123A7C /* VoiceNote */,
+				A112FC16255DBDE800123A7C /* VoiceNoteTests */,
+				A112FC21255DBDE800123A7C /* VoiceNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A112FBFF255DBDE600123A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A112FC11255DBDE800123A7C /* LaunchScreen.storyboard in Resources */,
+				A112FC0E255DBDE800123A7C /* Assets.xcassets in Resources */,
+				A112FC0C255DBDE600123A7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112FC15255DBDE800123A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112FC20255DBDE800123A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A112FBFD255DBDE600123A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A112FC09255DBDE600123A7C /* ViewController.swift in Sources */,
+				A112FC05255DBDE600123A7C /* AppDelegate.swift in Sources */,
+				A112FC07255DBDE600123A7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112FC13255DBDE800123A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A112FC1C255DBDE800123A7C /* VoiceNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A112FC1E255DBDE800123A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A112FC27255DBDE800123A7C /* VoiceNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A112FC19255DBDE800123A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A112FC00255DBDE600123A7C /* VoiceNote */;
+			targetProxy = A112FC18255DBDE800123A7C /* PBXContainerItemProxy */;
+		};
+		A112FC24255DBDE800123A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A112FC00255DBDE600123A7C /* VoiceNote */;
+			targetProxy = A112FC23255DBDE800123A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A112FC0A255DBDE600123A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A112FC0B255DBDE600123A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A112FC0F255DBDE800123A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A112FC10255DBDE800123A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A112FC29255DBDE800123A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A112FC2A255DBDE800123A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A112FC2C255DBDE800123A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoiceNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoiceNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A112FC2D255DBDE800123A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoiceNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoiceNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A112FC2F255DBDE800123A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoiceNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoiceNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceNote.app/VoiceNote";
+			};
+			name = Debug;
+		};
+		A112FC30255DBDE800123A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoiceNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoiceNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceNote.app/VoiceNote";
+			};
+			name = Release;
+		};
+		A112FC32255DBDE800123A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoiceNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoiceNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceNote;
+			};
+			name = Debug;
+		};
+		A112FC33255DBDE800123A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoiceNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoiceNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A112FBFC255DBDE600123A7C /* Build configuration list for PBXProject "VoiceNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A112FC29255DBDE800123A7C /* Debug */,
+				A112FC2A255DBDE800123A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A112FC2B255DBDE800123A7C /* Build configuration list for PBXNativeTarget "VoiceNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A112FC2C255DBDE800123A7C /* Debug */,
+				A112FC2D255DBDE800123A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A112FC2E255DBDE800123A7C /* Build configuration list for PBXNativeTarget "VoiceNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A112FC2F255DBDE800123A7C /* Debug */,
+				A112FC30255DBDE800123A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A112FC31255DBDE800123A7C /* Build configuration list for PBXNativeTarget "VoiceNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A112FC32255DBDE800123A7C /* Debug */,
+				A112FC33255DBDE800123A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A112FBF9255DBDE600123A7C /* Project object */;
+}
